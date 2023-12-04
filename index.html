@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div class="btn1">
+    <button onclick="
+        const rn=Math.random();
+
+        let cm='';
+         
+        if(rn>=0 && rn<=1/3)
+        {
+            cm='rock';
+        }
+        else if(rn>=1/3 && rn<=2/3)
+        {
+            cm='paper';
+        }
+        else 
+        {
+            cm='Sicor';
+        }
+        console.log(cm);
+         
+        let res='';
+
+        if(cm === 'rock')
+        {
+            res='Tie';
+        }
+        else if(cm === 'paper')
+        {
+            res='Lose';
+        }
+        else if(cm === 'Sicor')
+        {
+            res='Won';
+        }
+
+        alert(`You Picked Rock || Compuer Picked ${cm} || You ${res}`);
+        ">Rock</button>
+    </div>
+
+    <div class="btn2">
+
+    <button onclick="
+
+    const rn=Math.random();
+
+    let cm='';
+    
+    if(rn>=0 && rn<=1/3)
+    {
+        cm='rock';
+    }
+    else if(rn>=1/3 && rn<=2/3)
+    {
+        cm='paper';
+    }
+    else 
+    {
+        cm='Sicor';
+    }
+    console.log(cm);
+    
+    let res='';
+
+    if(cm === 'rock')
+    {
+        res='!!You Won!!';
+    }
+    else if(cm === 'paper')
+    {
+        res='Tie';
+    }
+    else if(cm === 'Sicor')
+    {
+        res='** You Lose **';
+    }
+
+    alert(`You Picked Paper || Compuer Picked ${cm} || You ${res}`);
+    ">Paper</button>
+</div>
+
+
+<div class="btn3">
+    <button onclick="
+    const rn=Math.random();
+
+    let cm='';
+    
+    if(rn>=0 && rn<=1/3)
+    {
+        cm='rock';
+    }
+    else if(rn>=1/3 && rn<=2/3)
+    {
+        cm='paper';
+    }
+    else 
+    {
+        cm='Sicor';
+    }
+    console.log(cm);
+    
+    let res='';
+
+    if(cm === 'rock')
+    {
+        res='!!You Lose!!';
+    }
+    else if(cm === 'paper')
+    {
+        res='** You Won **';
+    }
+    else if(cm === 'Sicor')
+    {
+        res='Tie';
+    }
+
+    alert(`You Picked Cissor || Compuer Picked ${cm} || You ${res}`);
+    ">Cissor</button>
+
+</div> 
+<!-- <button onclick="alert('Hello')">Hello</button>
+<script> -->
+    
+
+</script>
+</body>
+</html>
